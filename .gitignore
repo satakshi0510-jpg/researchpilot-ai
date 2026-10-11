@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Vector database and local data
+chroma_db/
+data/
+
+# Test and editor files
+.pytest_cache/
+.vscode/
